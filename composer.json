@@ -1,0 +1,25 @@
+{
+  "name": "kurotokiya/reseller-club",
+  "description": "A PHP version ResellerClub API",
+  "keywords": [
+    "resellerclub",
+    "kurotokiya"
+  ],
+  "homepage": "http://tokiya.me",
+  "require": {
+    "php": ">=5.5.9",
+    "guzzlehttp/guzzle": "^6.0"
+  },
+  "autoload":{
+    "psr-0": {
+      "ResellerClub": "src"
+    }
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Tokiya Kurosaki",
+      "email": "kurotokiya@gmail.com"
+    }
+  ]
+}
